@@ -25,11 +25,6 @@
             bindings = <&studio_unlock>;
         };
 
-        tilde_tab_escape {
-            bindings = <&kp ESC>;
-            key-positions = <0 12>;
-        };
-
         bl_left {
             bindings = <&bootloader>;
             key-positions = <1 5>;
@@ -38,6 +33,11 @@
         bl_right {
             bindings = <&bootloader>;
             key-positions = <6 10>;
+        };
+
+        full_bksp {
+            bindings = <&kp RA(BACKSPACE)>;
+            key-positions = <10 11>;
         };
     };
 };
